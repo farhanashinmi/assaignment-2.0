@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ header .nav-container{
+    background-color: blueviolet;
+    width: 50px;
+}
