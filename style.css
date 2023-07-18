@@ -70,6 +70,80 @@ span{
     transform: rotate(-45deg);  
 }
 
+/*--- main section---*/
+/*--- banner---*/
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 25px 150px 10px 150px;
+      
+}
+
+.banner-container h2{
+    font-size: 1.8rem;
+}
+.banner-description{
+    font-size: 3.3rem;
+    font-weight: 600;
+    color: rgb(202, 4, 176);
+    
+    
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.icon-description{
+    font-size: 0.8rem;
+
+}
+
+.banner-icon{
+    width: 15px;
+    height: 15px;
+}
+.button-container{
+    margin-top: 20px;
+}
+.banner-btn1{
+    width: 85px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    color:white ;
+    background-color: rgb(253, 33, 169);
+    font-size: 0.6rem;
+
+}
+.banner-btn2{
+    width: 85px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    color:white ;
+    background-color: rgb(95, 157, 250);
+    font-size: 0.6rem;
+
+}
+.banner-img{
+    width: 400px;
+    height: 450px;
+    margin-bottom: -27px;
+    margin-top: -5px;
+}
+
+
+
+
+
+
+
+
 
 /*------- Responsive phone media --------*/
 
@@ -85,7 +159,16 @@ span{
     .btn-primary{
         width: 150px;  
     }
-}
+    .banner-container{
+       flex-direction: column-reverse;  
+    }
+    .banner-img{
+        width: 300px;
+        height: 300px;
+    }
+    .banner-left-container{
+        margin-top: 40px;
+    }
 
 
 
