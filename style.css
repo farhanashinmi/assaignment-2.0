@@ -77,8 +77,9 @@ span{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 25px 150px 10px 150px;
-      
+    padding: 25px 150px 10px 150px; 
+    
+     
 }
 
 .banner-container h2{
@@ -87,9 +88,7 @@ span{
 .banner-description{
     font-size: 3.3rem;
     font-weight: 600;
-    color: rgb(202, 4, 176);
-    
-    
+    color: rgb(202, 4, 176);   
 }
 .icon-container{
     display: flex;
@@ -137,6 +136,47 @@ span{
     margin-top: -5px;
 }
 
+/*---gamer section---*/
+.gamer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    margin-top: 8px;
+    padding: 20px 150px 10px 150px; 
+}
+
+.gamer-img{
+    width: 600px;
+}
+.gamer-header{
+    font-size: 1.8rem;
+    color: blueviolet;
+    text-align: right;
+
+}
+.gamer-description{
+    margin-top: 15px;
+    font-size: 0.8rem;
+    text-align: right;
+}
+.gammer-btn{
+    width: 95px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    color:white ;
+    background-color: rgb(253, 33, 169);
+    font-size: 0.6rem;
+    margin-top: 20px;  
+    margin-left: 280px;
+}
+.gammer-footer{
+    text-align: right;
+    margin-top: 18px;
+}
+
 
 
 
@@ -149,6 +189,7 @@ span{
 
 @media screen and (max-width: 400px){
     
+    /*--- nav ---*/
     .nav-container{
     flex-direction: column;
     }
@@ -159,6 +200,8 @@ span{
     .btn-primary{
         width: 150px;  
     }
+
+    /*--- banner ---*/
     .banner-container{
        flex-direction: column-reverse;  
     }
@@ -169,6 +212,7 @@ span{
     .banner-left-container{
         margin-top: 40px;
     }
+}
 
 
 
@@ -176,6 +220,7 @@ span{
 
 @media screen and (min-width:401),(max-width: 601px){
     
+    /*--- nav ---*/
     .nav-container{
     flex-direction: column;
     }
@@ -186,4 +231,16 @@ span{
     .btn-primary{
         width: 150px;  
     }
+
+    /*--- banner---*/
+    .banner-container{
+        flex-direction: column;  
+     }
+     .banner-img{
+         width: 300px;
+         height: 300px;
+     }
+     .banner-left-container{
+         margin-top: 40px;
+     }
 }
