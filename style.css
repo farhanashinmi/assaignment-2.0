@@ -4,8 +4,103 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+
 }
- header .nav-container{
-    background-color: blueviolet;
-    width: 50px;
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 150px 10px 150px;
+    background-color: rgb(240, 173, 173);
+    
+}
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+}
+.logo-container p{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+span{
+    color: rgb(253, 33, 169);
+}
+.logo-img{
+    width: 35px;
+}
+.nav-item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+
+}
+.nav-item-container a{
+    font-size: 0.7rem;
+    color: rgb(26, 26, 26);
+    text-decoration: none;   
+}
+.nav-item-container a:hover{
+    color: rgb(253, 33, 169);
+}
+.btn-primary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    background-color: rgb(192, 190, 190);
+    border: none;
+    padding: 2px 8px 2px 8px;
+}
+.btn-icon{
+    width: 20px;
+    height: 18px;
+}
+.btn-icon:hover{
+    transform: rotate(45deg);  
+}
+.btn-icon1{
+    width: 20px;
+    height: 15px;
+}
+.btn-icon1:hover{
+    transform: rotate(-45deg);  
+}
+
+
+/*------- Responsive phone media --------*/
+
+@media screen and (max-width: 400px){
+    
+    .nav-container{
+    flex-direction: column;
+    }
+    .nav-item-container{
+    margin-top: 8px;
+    flex-direction: column;
+    }
+    .btn-primary{
+        width: 150px;  
+    }
+}
+
+
+
+/*------Responsive tablet media------*/
+
+@media screen and (min-width:401),(max-width: 601px){
+    
+    .nav-container{
+    flex-direction: column;
+    }
+    .nav-item-container{
+    margin-top: 8px;
+    flex-direction: column;
+    }
+    .btn-primary{
+        width: 150px;  
+    }
 }
