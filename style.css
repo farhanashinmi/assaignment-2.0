@@ -80,17 +80,11 @@ span3{
     margin:50px auto 0;
     padding: 25px 150px 10px 150px;   
     background-color: white;   
-    max-width: 1400;
+    max-width: 1400px;
     min-height: 50px;
     background-image: url(images/Group\ 14.png);
 }
-.banner-left-container{
-    width: 55%;
-   
-}
-.banner-right-container{
-    width: 50%;
-}
+
 .banner-container h2{
     font-size: 1.8rem;
 }
@@ -408,112 +402,84 @@ span3{
 
 
 /*------- Responsive phone media --------*/
-
-@media screen and (max-width: 400px){
+@media screen and (max-width:400px){
     
-    /*--- nav ---*/
     .nav-container{
     flex-direction: column;
     }
+   
     .nav-item-container{
-    margin-top: 8px;
-    flex-direction: column;
+       flex-direction: column;    
     }
     .btn-primary{
-        width: 150px;  
+        width: 140px;
+        border: none;
+        padding: 2px 8px 2px 8px;
     }
-
-    /*--- banner ---*/
+    
+    
+    /*--- main section---*/
+    /*--- banner---*/
     .banner-container{
        flex-direction: column-reverse;  
     }
+    
     .banner-img{
-        width: 300px;
-        height: 300px;
-       
+        width: 350px;
+        height: 400px;
+        padding: 0 0 40px 35px;
+        
     }
-    .banner-left-container{
-        margin-top: 40px;
+    
+    /*---gamer section---*/
+    .gamer-container{
+        flex-direction: column-reverse;
     }
 
-    /*--- gamer --*/
-    .gamer-container{
-     flex-direction: column-reverse;
-    
-    }
     .gamer-img{
         width: 300px;
     }
     .gamer-header{
-        font-size:1rem;
-        color: blueviolet;
         text-align: center;
-        margin-top: 8px;
-    
     }
     .gamer-description{
-        margin-top: 15px;
-        font-size: 0.5rem;
         text-align: center;
     }
+    
     .gammer-btn{
-        width: 120px;
-        height: 30px;
-        padding: 5px;
-        border: none;
-        border-radius: 20px;
-        color:white ;
-        background-color: rgb(253, 33, 169);
-        font-size: 0.6rem;
-        margin-top: 20px;  
-        margin-right: 280px;
+       text-align: center;
+       
     }
     .gammer-footer{
         text-align: center;
-        font-size: 0.8rem;
-        margin-top: 18px;
     }
-
-    /*--- online section---*/
+    
+    /*---online section---*/
+    
+   
+    .online-section-container{
+        padding: 0 0 40px 35px;
+    }
+    
     .online-container{
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        padding-left:20px ;
-    }
-    .online-header{
-        font-size:1rem;
-        color: blueviolet;
-        text-align: center;
-        margin-top: 8px;
-    }
-    .online-header-description{
-        margin-top: 15px;
-        font-size: 0.5rem;
-        text-align: center; 
+    flex-direction: column;
+    padding: 8px 100px 2px 80px;   
     }
 
-    /*--- play section---*/
+    /*---paly section---*/
     .play-container{
         flex-direction: column;
-        padding: 20px;
+        padding: 8px 100px 2px 80px;   
     }
+
     .play-header-section{
         text-align: center;
-        padding-left: 20px;
+        padding: 0 0 40px 35px;
     }
     .play-description{
-        text-align: center;  
-        font-size: 1rem;
+        text-align: center;   
     }
-    /*---game section---*/
-    .game-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 2px;
-    padding: 20px;
-          
-    }
+   
     .play-img{
         width: 300px;
         
@@ -521,58 +487,69 @@ span3{
     .play-img1{
         width: 150px;
         height: 150px;
-        transform:translate(100px);
+        transform:translate( 100px);
         margin-top: 100px;
     }
+    
+    /*---game section---*/
+    .game-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 8px;
+        padding: 8px 20px 20px 78px;          
+    }
+    .game{
+        display: flex;
+        gap: 9px;
+        align-items: center;
+        padding: 5%;   
+    }
+    .game img{
+        width: 30px;   
+    }
+    .game p{
+        font-size: 0.4rem;
+        font-weight: 600;
+    }
+    
+    /*--footer--*/
     .footer-logo-container{
-     display: flex;
-     padding-left: 90px;
-     
+        flex-direction: flex;
+        padding: 78px 65px 2px 100px;   
     }
     .footer-logo-container p{
         font-size: 1.3rem;
-        font-weight: 700;
-        color: white;
-        padding-left: 3px;
     }
-    
     .footer-logo-img{
         width: 35px;
     }
     .footer-story{
         display: flex;
-        gap: 2px;
-        color: white;
-        text-align: center;
-        padding-left: 20px;
-        margin-top: 15px;
+        gap: 8px;
+        padding: 8px 59px 2px 30px;  
     }
     .footer-story p{
-       font-size: 0.6rem;
-       padding-left: 10px;  
+       font-size: 0.6rem; 
+       
     }
     .footer-icon{
-        display: flex;
-        gap: 6px;
-        color: white;
-        text-align: center;
-        padding-left: 140px;
-        margin-top: 20px; 
+        display: grid;
+        grid-template-columns: repeat(3, 0.2fr);
+        gap: 10px;
+        padding: 8px 90px 2px 140px; 
     }
     .footer-description{
         display: flex;
-        gap: 2px;
-        color: white;
-        text-align: center;
-        padding-left: 45px;
-        margin-top: 20px;
-        font-weight: 300;
-        font-size: 0.6rem;
+        gap: 6px;
+        padding: 8px 75px 0 75px; 
+       font-size: 0.5rem;
+    }
+    .footer-p{
+        padding: 0 10px 70px 10px;
+        font-size: 0.4rem; 
     }
     
-}
 
-    
 
 
 
