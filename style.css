@@ -12,7 +12,7 @@ body{
     align-items: center;
     margin: 0 auto;
     padding: 10px 150px 10px 150px;
-    background-color: rgb(240, 173, 173);
+    background-color: white;
     
 }
 .logo-container{
@@ -51,7 +51,7 @@ span3{
     justify-content: space-between;
     align-items: center;
     gap: 6px;
-    background-color: rgb(192, 190, 190);
+    background-color: rgba(212, 212, 212, 0.815);
     border: none;
     padding: 2px 8px 2px 8px;
 }
@@ -77,12 +77,20 @@ span3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    padding: 25px 150px 10px 150px; 
-    
-     
+    margin:50px auto 0;
+    padding: 25px 150px 10px 150px;   
+    background-color: white;   
+    max-width: 1400;
+    min-height: 50px;
+    background-image: url(images/Group\ 14.png);
 }
-
+.banner-left-container{
+    width: 55%;
+   
+}
+.banner-right-container{
+    width: 50%;
+}
 .banner-container h2{
     font-size: 1.8rem;
 }
@@ -120,6 +128,12 @@ span3{
 
 }
 
+.banner-btn1:hover{
+    transform: rotate(-45deg);  
+}
+.banner-btn2:hover{
+    transform: rotate(-45deg);  
+}
 .banner-btn2{
     width: 85px;
     height: 30px;
@@ -132,10 +146,10 @@ span3{
 
 }
 .banner-img{
-    width: 600px;
-    height: 450px;
-    margin-bottom: -27px;
-    margin-top: -5px;
+    width: 500px;
+    height: 400px;
+    margin-bottom: -16px;
+    
 }
 
 /*---gamer section---*/
@@ -143,8 +157,8 @@ span3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(253, 232, 250, 0.404);
-    margin-top: 8px;
+    background-color: rgba(255, 225, 251, 0.404);
+    margin-top: -3px;
     padding: 20px 150px 10px 150px; 
 }
 
@@ -178,6 +192,9 @@ span1{
     margin-top: 20px;  
     margin-left: 280px;
 }
+.gammer-btn:hover{
+    transform: rotate(45deg); 
+}
 .gammer-footer{
     text-align: right;
     margin-top: 18px;
@@ -190,6 +207,7 @@ span1{
     text-align: center; 
     margin-top: 8px;
     padding: 20px 150px 10px 120px; 
+    
 }
 .online-header{
     margin-top: 15px;
@@ -292,6 +310,7 @@ span{
     grid-template-columns: repeat(5, 1fr);
     margin-top: 8px;
     padding: 120px 150px 10px 120px; 
+    background-color: white;
           
 }
 .game{
