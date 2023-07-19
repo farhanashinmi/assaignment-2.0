@@ -318,6 +318,69 @@ span1{
     font-weight: 700;
 }
 
+/*--footer--*/
+footer{
+    background-color: rgb(12, 2, 36);
+    align-items: center;
+    text-align: center;
+   
+}
+
+.footer-logo-container{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-left:550px;
+    padding-top: 90px;
+
+}
+.footer-logo-container p{
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: white;
+}
+span3{
+    color: rgb(253, 33, 169);
+}
+.footer-logo-img{
+    width: 35px;
+}
+.footer-story{
+    display: flex;
+    gap: 20px;
+    color: white;
+    text-align: center;
+    padding-left: 460px;
+    margin-top: 15px;
+}
+.footer-story p{
+   font-size: 0.8rem;  
+}
+.footer-icon{
+    display: flex;
+    gap: 20px;
+    color: white;
+    text-align: center;
+    padding-left: 600px;
+    margin-top: 20px; 
+}
+.footer-description{
+    display: flex;
+    gap: 20px;
+    color: white;
+    text-align: center;
+    padding-left: 510px;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 0.6rem;
+}
+.footer-p{
+    margin-top: 30px;
+    color: white;
+    font-weight: 100;
+    font-size: 0.6rem;
+    padding-bottom: 70px;
+}
 
 
 
