@@ -76,7 +76,7 @@ span3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:50px auto 0;
+    margin: auto 0;
     padding: 25px 150px 10px 150px;   
     background-color: white;   
     max-width: 1400px;
@@ -302,7 +302,7 @@ span{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin-top: 8px;
-    padding: 120px 150px 10px 120px; 
+    padding: 120px 350px 20px 320px; 
     background-color: white;
           
 }
@@ -546,8 +546,7 @@ span3{
     .footer-p{
         padding: 0 10px 70px 10px;
         font-size: 0.4rem; 
-    }
-}
+    }}
     
 
 
