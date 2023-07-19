@@ -231,8 +231,7 @@ span1{
     font-size: 0.6rem;
     z-index: -1;
     
-    
-   
+  
 }
 .online-img1:hover{
     color: rgb(253, 33, 169);
@@ -631,9 +630,21 @@ span3{
     .footer-p{
         padding: 0 10px 70px 10px;
         font-size: 0.4rem; 
-    }}
+    }
+}
     
 
+/*------- Responsive tab media --------*/
+@media screen and (max-width:700px){
+ 
+    .grid-container{
+        grid-template-columns: repeat(2.1fr);
+    }
+}
 
-
-
+@media screen and (max-width:800px){
+ 
+    .grid-container{
+        grid-template-columns: repeat(3.2fr);
+    }
+}
