@@ -4,7 +4,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-
+    
 }
 .nav-container{
     display: flex;
@@ -25,7 +25,7 @@ body{
     font-size: 1.6rem;
     font-weight: 600;
 }
-span{
+span3{
     color: rgb(253, 33, 169);
 }
 .logo-img{
@@ -55,6 +55,7 @@ span{
     border: none;
     padding: 2px 8px 2px 8px;
 }
+
 .btn-icon{
     width: 20px;
     height: 18px;
@@ -118,6 +119,7 @@ span{
     font-size: 0.6rem;
 
 }
+
 .banner-btn2{
     width: 85px;
     height: 30px;
@@ -130,7 +132,7 @@ span{
 
 }
 .banner-img{
-    width: 400px;
+    width: 600px;
     height: 450px;
     margin-bottom: -27px;
     margin-top: -5px;
@@ -161,6 +163,9 @@ span{
     font-size: 0.8rem;
     text-align: right;
 }
+span1{
+    color: rgb(72, 2, 104);
+}
 .gammer-btn{
     width: 95px;
     height: 30px;
@@ -178,10 +183,140 @@ span{
     margin-top: 18px;
 }
 
+/*---online section---*/
+
+.online-section-container{
+    align-items: center;
+    text-align: center; 
+    margin-top: 8px;
+    padding: 20px 150px 10px 120px; 
+}
+.online-header{
+    margin-top: 15px;
+    font-size: 1.8rem;
+    
+}
 
 
+.online-header-description{
+    font-size: 0.8rem;
+    margin-top: 12px;
+}
+.online-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap:4px ;
+    
+   
+}
 
+.online-img:hover{
+    color: rgb(253, 33, 169);
+    border: 4px solid rgb(253, 33, 169);
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    font-size: 0.6rem;
+    z-index: -1;
+    
+    
+   
+}
+.online-img1:hover{
+    color: rgb(253, 33, 169);
+    border: 2px solid rgb(253, 33, 169);
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    font-size: 0.6rem;
+ 
+}
+ 
+.online-img{
+    width: 260px;
+    height: 280px;
+}
+.online-img1{
+    width: 260px;
+    height: 280px;
+    margin-top: -18px;   
+}
+.online-description{
+    text-align: left;
+    font-size: 0.8rem;
+    padding: 18px;
+}
 
+/*---paly section---*/
+.play-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+    padding: 20px 150px 10px 120px; 
+}
+.play-header-section{
+    text-align: right;
+    padding-left: 180px;
+}
+.play-description{
+    font-size: 0.8rem;
+    margin-top: 20px;
+    text-align: right;
+   
+    
+}
+.c2{
+    transform:translate(0.2px); 
+    margin-top: -200px;
+}
+.play-img{
+    width: 400px;
+    
+}
+.play-img1{
+    width: 200px;
+    height: 250px;
+    transform:translate(-180px);
+}
+
+/*---game section---*/
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 8px;
+    padding: 120px 150px 10px 120px; 
+          
+}
+.game{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 5%;
+    
+}
+.game:hover{
+    color: rgb(253, 33, 169);
+    border: 2px solid rgb(253, 33, 169);
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 0.6rem;
+    
+}
+.game img{
+    width: 40px;
+    
+}
+
+.game p{
+    font-size: 0.6rem;
+    font-weight: 700;
+}
 
 
 
@@ -210,6 +345,7 @@ span{
     .banner-img{
         width: 300px;
         height: 300px;
+       
     }
     .banner-left-container{
         margin-top: 40px;
@@ -218,6 +354,7 @@ span{
     /*--- gamer --*/
     .gamer-container{
      flex-direction: column-reverse;
+    
     }
     .gamer-img{
         width: 300px;
@@ -244,14 +381,52 @@ span{
         background-color: rgb(253, 33, 169);
         font-size: 0.6rem;
         margin-top: 20px;  
-        margin-left: 20px;
+        margin-right: 130px;
     }
     .gammer-footer{
         text-align: center;
         font-size: 0.8rem;
         margin-top: 18px;
     }
-    
+
+    /*--- online section---*/
+    .online-container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding-left:20px ;
+    }
+    .online-header{
+        margin-top: 15px;
+        font-size: 1rem; 
+    }
+    .online-header-description{
+        font-size: 0.8rem;
+        margin-top: 12px;
+        
+    }
+
+    /*--- play section---*/
+    .play-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .play-header-section{
+        text-align: center;
+        padding-left: 20px;
+    }
+    .play-description{
+        text-align: center;  
+        font-size: 1rem;
+    }
+    /*---game section---*/
+    .game-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2px;
+    padding: 20px;
+          
+}
 
 }
 
@@ -260,30 +435,3 @@ span{
 
 
 /*------Responsive tablet media------*/
-
-@media screen and (min-width:401),(max-width: 601px){
-    
-    /*--- nav ---*/
-    .nav-container{
-    flex-direction: column;
-    }
-    .nav-item-container{
-    margin-top: 8px;
-    flex-direction: column;
-    }
-    .btn-primary{
-        width: 150px;  
-    }
-
-    /*--- banner---*/
-    .banner-container{
-        flex-direction: column;  
-     }
-     .banner-img{
-         width: 300px;
-         height: 300px;
-     }
-     .banner-left-container{
-         margin-top: 40px;
-     }
-}
