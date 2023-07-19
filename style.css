@@ -3,8 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: 'Poppins', sans-serif;    
 }
 .nav-container{
     display: flex;
@@ -548,9 +547,9 @@ span3{
         padding: 0 10px 70px 10px;
         font-size: 0.4rem; 
     }
+}
     
 
 
 
 
-/*------Responsive tablet media------*/
